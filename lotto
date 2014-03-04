@@ -1,0 +1,103 @@
+a=str(raw_input("Tik-piat-tsiong ho-be si: "))
+print a
+print "Khak-ting u tsing-khak?"
+ca=str(raw_input("Su-jip Y iah-si N: "))
+if ca=="Y":
+    pass
+if ca!="Y":
+    a=str(raw_input("Tsing-khak e tik-piat-tsiong ho-be si: "))
+       
+b=str(raw_input("Tik-tsiong ho-be si: "))
+print b
+print "Khak-ting u tsing-khak?"
+cb=str(raw_input("Su-jip Y iah-si N: "))
+if cb=="Y":
+    pass
+if ca!="Y":
+    b=str(raw_input("Tsing-khak e tik-tsiong ho-be si: "))
+
+c=str(raw_input("Thau-tsiong te-1 e ho-be si: "))
+print c
+print "Khak-ting u tsing-khak?"
+cc=str(raw_input("Su-jip Y iah-si N: "))
+if cc=="Y":
+    pass
+if cc!="Y":
+    b=str(raw_input("Tsing-khak e Thau-tsiong te-1 e ho-be si: "))
+
+d=str(raw_input("Thau-tsiong te-2 e ho-be si: "))
+print d
+print "Khak-ting u tsing-khak?"
+cd=str(raw_input("Su-jip Y iah-si N: "))
+if cd=="Y":
+    pass
+if cd!="Y":
+    b=str(raw_input("Tsing-khak e Thau-tsiong te-2 e ho-be si: "))
+
+e=str(raw_input("Thau-tsiong te-3 e ho-be si: "))
+print e
+print "Khak-ting u tsing-khak?"
+ce=str(raw_input("Su-jip Y iah-si N: "))
+if ce=="Y":
+    pass
+if ce!="Y":
+    b=str(raw_input("Tsing-khak e Thau-tsiong te-3 e ho-be si: "))
+
+f=str(raw_input("Ke-khui e lak-tsiong thau-tsit-e ho-be si: "))
+print f
+print "Khak-ting u tsing-khak?"
+cf=str(raw_input("Su-jip Y iah-si N: "))
+if cf=="Y":
+    pass
+if cf!="Y":
+    b=str(raw_input("Ke-khui e lak-tsiong thau-tsit-e ho-be si: "))
+
+g=str(raw_input("Ke-khui e lak-tsiong te-2 ho-be si: "))
+print g
+print "Khak-ting u tsing-khak?"
+cg=str(raw_input("Su-jip Y iah-si N: "))
+if cg=="Y":
+    pass
+if cg!="Y":
+    b=str(raw_input("Ke-khui e lak-tsiong te-2 ho-be si: "))
+
+"""To input the number of the receipts on hand one at a time"""
+
+print "1 tiunn 1 tiunn su-jip huat-phio e siong-bue 3 be"
+
+x=str(raw_input("Siong-bue 3 be si: "))
+if x==a%1000 or x==b%1000:
+    print "U kho-ling tioh tua-tsiong!!!"
+    h=str(raw_input("Su-jip huat-phio kui-e ho-be: "))
+    if h==a:
+        print "Tioh tik-piat-tsiong!"
+    if h==b:
+        print "Tioh tik-tsiong!"
+if x!=a%1000 and x!=b%1000:
+
+else:
+
+if x==c%1000 or x==d%1000 or x==e%1000 or x==f%1000 or x==g%1000:
+    print "Tioh 200!"
+
+else:
+
+if x==c%10000 or x==d%10000 or x==e%10000 or x==f%10000 or x==g%10000:
+    print "Tioh 1000!"
+
+else:
+
+if x==c%100000 or x==d%100000 or x==e%100000 or x==f%100000 or x==g%100000:
+    print "Tioh 4000!"
+
+else:
+
+if x==c%1000000 or x==d%1000000 or x==e%1000000 or x==f%1000000 or x==g%1000000:
+    print "Tioh 1 ban!"
+
+else:
+
+if x==c%10000000 or x==d%10000000 or x==e%10000000 or x==f%10000000 or x==g%10000000:
+    print "Tioh 4 ban!"
+    
+
